@@ -1,9 +1,927 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="zxx">
+<head>
+    <title>弥一定制</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
 
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/simpleLightbox.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/text-style.css"> <!--Banner-text-style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <!--//fonts-->
+    <style>
+        .co3 {
+            display: inline-block;
+            padding: 10px 60px;
+            border: 1px solid #FFFFFF;
+            font-family: 微軟正黑體;
+            font-size: 22px;
+            line-height: 40px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .co3:hover {
+            color: #757575;
+            background: #FFFFFF;
+        }
+
+        /*瀑布流*/
+        .waterflowContainer {
+            margin: auto;
+            position: relative;
+        }
+
+        .box {
+            float: left;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background: #f7f7f7;
+            box-shadow: 0 0 8px #ccc;
+        }
+
+        .box:hover {
+            box-shadow: 0 0 10px #999;
+        }
+
+        .box img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<!--banner start here-->
+<div class="banner" id="home">
+    <div class="header">
+        <div class="header-main">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a href="index.html">弥一定制</a><br/><span>Great look in Outfit</span></a></h1>
+                    </div>
+                    <!-- navbar-header -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="scroll hvr-outline-in"><a href="index.html">主页</a></li>
+                            <li><a class="scroll hvr-outline-in" href="#about">关于</a></li>
+                            <li class="dropdown menu__item">
+                                <a href="#" class="dropdown-toggle menu__link hvr-outline-in" data-toggle="dropdown"
+                                   data-hover="Pages" role="button" aria-haspopup="true" aria-expanded="false">服务中心<span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#works" class="scroll">服务</a></li>
+                                    <li><a href="#services" class="scroll">特色</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="scroll hvr-outline-in" href="#gallery">大师之作</a></li>
+                            <li><a class="scroll hvr-outline-in" href="#contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </nav>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner-text">
+                <section class="cd-intro">
+                    <h2 class="cd-headline letters scale">
+                        <span>高级定制&触手可及</span><br/>
+                        <!--<span class="cd-words-wrapper" style=>
+                            <b class="is-visible" style="color: white;">让你感受完美贴身</b>-->
+                        <!--<b>定制</b>
+                        <b>    贴身</b>
+                        <b>    舒适</b>-->
+                        </span>
+                    </h2>
+                </section>
+                <div class="botton-agileits">
+                    <a class="co3" href="http://mieedz.com" target="_blank">开启您的定制之旅</a>
+                </div>
+                <!--<div class="agileits_w3layouts_call_mail">
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>(+000) 123 456 78</li>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:maria@example.com">info@example.com</a></li>
+                    </ul>
+                </div>-->
+                <!--<div class="banner-icons-agileinfo">
+                    <ul class="agileits_social_list">
+                        <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--banner end here-->
+
+<!-- Modal1 -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4>Sewing</h4>
+                <img src="images/introduce.png" alt=" " class="img-responsive">
+                <h3 class="subheading-w3l">欢迎光临 <span>弥一私享</span> 定制</h3>
+                <p>MIEE •COUTURE，每一位顾客的西服均享受私人形象顾问专属设计，一人一版，手工定制。让您不必再担心没有时间选购服装，也不必再为出席一个重要场合该如何穿着而头疼。
+                </p><br/>
+                <p>弥一私享定制秉承“大国工匠”的精神——专业专注，精益求精的为您提供一对一的管家式贴心服务</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //Modal1 -->
+
+<!-- banner-bottom -->
+<div id="about" class="banner-bottom">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3>关于我们</h3>
+        </div>
+        <div class="w3ls_banner_bottom_grid1">
+            <div class="col-md-6 w3l_banner_bottom_left">
+                <img src="images/introduce.png" alt=" " class="img-responsive"/>
+            </div>
+            <div class="col-md-6 w3l_banner_bottom_right">
+                <h3 class="subheading-w3l">欢迎光临 <span>MIEE •COUTURE</span></h3>
+                <p>MIEE •COUTURE，每一位顾客的西服均享受私人形象顾问专属设计，一人一版，手工定制。让您不必再担心没有时间选购服装，也不必再为出席一个重要场合该如何穿着而头疼。
+                </p><br/>
+                <p>弥一私享定制秉承“大国工匠”的精神——专业专注，精益求精的为您提供一对一的管家式贴心服务</p>
+                <ul>
+                    <li><i class="fa fa-clone" aria-hidden="true"></i>Designing</li>
+                    <li><i class="fa fa-clone" aria-hidden="true"></i>Alteration</li>
+                    <li><i class="fa fa-clone" aria-hidden="true"></i>Mending</li>
+                    <li><i class="fa fa-clone" aria-hidden="true"></i>applique</li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //banner-bottom -->
+<!--latest-works-->
+<div class="latest-works" id="works">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3 class="white-w3ls">服务</h3>
+        </div>
+        <div class="col-md-8 agileits_banner_bottom_grid_three">
+            <div class="agileinfo_banner_bottom_grid_three_left">
+                <div class="wthree_banner_bottom_grid_three_left1 grid">
+                    <figure class="effect-roxy">
+                        <img src="images/a2.jpg" alt=" " class="img-responsive"/>
+                        <figcaption>
+                            <h3><span>M</span>ending</h3>
+                            <p>高端面料，贴身舒适</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <p class="w3_agileits_para">
+                    无论在什么年代，“定制”都有品质、体验的含义，着装具有需求的同时也是一个人涵养的体现，也是我们互相沟通的一种语言。手工缝制服装也已成为一种现代人群的选择。</p>
+            </div>
+            <div class="agileinfo_banner_bottom_grid_three_left">
+                <p class="w3_agileits_para">手工缝制服装是一件集解剖学和艺术智慧为一体的手工艺品，并被赋予了穿着者的生命。这是机器生产的成衣所不能比拟的，这就是手工缝制服装的品质。</p>
+                <div class="wthree_banner_bottom_grid_three_left1 grid">
+                    <figure class="effect-roxy">
+                        <img src="images/a3.jpg" alt=" " class="img-responsive"/>
+                        <figcaption>
+                            <h3><span>D</span>esigning</h3>
+                            <p>拥有经验丰富的专业设计师，结合企业文化及需求设计款式。</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-4 agileinfo_banner_bottom_grid_three_left bnr-btm3">
+            <div class="wthree_banner_bottom_grid_three_left1 grid">
+                <figure class="effect-roxy">
+                    <img src="images/a4.jpg" alt=" " class="img-responsive"/>
+                    <figcaption>
+                        <h3><span>A</span>lteration</h3>
+                        <p>精准测量，手工裁剪</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <p class="w3_agileits_para">
+                手工缝制服装是对传统工艺和服饰文化的尊崇及秉承。除了定制的工艺，衣服材质选自世界各地面料品牌，某些衣料在其他地方也是看不到的。除了对客户提供的服务细致和贴心之外，也是顾客自身体验定制过程的一种途径，因为它已经演变成一种生活态度</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!--//Latest works-->
+<!-- services -->
+<div class="services" id="services">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3>特色</h3>
+        </div>
+        <div class="w3_agileits_services_grids">
+            <div class="w3_agileits_services_left">
+                <img src="images/service1.jpg" alt=""/>
+            </div>
+            <div class="w3_agileits_services_right">
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-female" aria-hidden="true"></i>
+                        </div>
+                        <h3>Designing</h3>
+                        <p>一人一版</p>
+                    </div>
+                </div>
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-scissors" aria-hidden="true"></i>
+                        </div>
+                        <h3>Alteration</h3>
+                        <p>精准测量</p>
+                    </div>
+                </div>
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        </div>
+                        <h3>Sewing</h3>
+                        <p>手工裁剪</p>
+                    </div>
+                </div>
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                        </div>
+                        <h3>fabric</h3>
+                        <p>进口面料</p>
+                    </div>
+                </div>
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                        </div>
+                        <h3>modernization</h3>
+                        <p>时尚款式</p>
+                    </div>
+                </div>
+                <div class="col-md-6 w3_agileits_services_grid">
+                    <div class="w3_agileits_services_grid_agile">
+                        <div class="w3_agileits_services_grid_1">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                        <h3>Server</h3>
+                        <p>贴心售后</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //services -->
+<!-- about -->
+<!--<div class="about-w3layouts">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3 class="white-w3ls">数据值得依赖</h3>
+        </div>
+        &lt;!&ndash; schedule-bottom &ndash;&gt;
+        <div class="schedule-bottom">
+            <div class="agileits_schedule_bottom_right">
+                <div class="w3ls_schedule_bottom_right_grid">
+                    <h3 class="subheading-w3l white-w3ls"> <span>弥一定制</span> 您身边的西服专家.
+                    </h3>
+                    <p></p>
+                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        <h4>Customers</h4>
+                        <h5 class="counter">792</h5>
+                    </div>
+                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        <h4>Designs</h4>
+                        <h5 class="counter">533</h5>
+                    </div>
+                    <div class="col-md-4 w3l_schedule_bottom_right_grid1">
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                        <h4>Awards</h4>
+                        <h5 class="counter">95</h5>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        &lt;!&ndash; //schedule-bottom &ndash;&gt;
+    </div>
+</div>-->
+<!-- //about-bottom -->
+<!-- team 设计师-->
+<!--<div class="team" id="experts">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3>Meet our experts</h3>
+        </div>
+        <div class="w3ls_banner_bottom_grids">
+            <div class="col-md-8 team-agileits-left">
+                <div class="w3_agile_team_grid">
+                    <div class="w3layouts_team_grid team1">
+                        <div class="w3layouts_team_grid_pos">
+                            <div class="wthree_text">
+                                <ul class="agileits_social_list">
+                                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook"
+                                                                                 aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter"
+                                                                             aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble"
+                                                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team1-info-w3ls">
+                        <h6>Regan Cole</h6>
+                        <span>Designer</span>
+                        <p>Donec semper rutrum ipsum et bibendum.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="w3_agile_team_grid">
+                    <div class="w3layouts_team_grid team2">
+                        <div class="w3layouts_team_grid_pos">
+                            <div class="wthree_text">
+                                <ul class="agileits_social_list">
+                                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook"
+                                                                                 aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter"
+                                                                             aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble"
+                                                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team2-info-w3ls">
+                        <h6>Sydney Taft</h6>
+                        <span>Designer</span>
+                        <p>Donec semper rutrum ipsum et bibendum.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-4 team-agileits-right">
+                <div class="w3_agile_team_grid">
+                    <div class="w3layouts_team_grid team3">
+                        <div class="w3layouts_team_grid_pos">
+                            <div class="wthree_text">
+                                <ul class="agileits_social_list">
+                                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook"
+                                                                                 aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter"
+                                                                             aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble"
+                                                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team3-info-w3ls">
+                        <h6>Chris Robinson</h6>
+                        <span>Designer</span>
+                        <p>Donec semper rutrum ipsum et bibendum.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>-->
+<!-- //team -->
+<!-- gallery -->
+<div id="gallery" class="gallery">
+    <div class="tittle-agileinfo">
+        <h3>设计 & 作品</h3>
+    </div>
+    <div class="w3ls_banner_bottom_grids">
+        <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#designs" id="home-tab" role="tab" data-toggle="tab"
+                                                          aria-controls="home" aria-expanded="true">男装</a></li>
+                <li role="presentation"><a href="#Alterations" role="tab" id="Alterations-tab" data-toggle="tab"
+                                           aria-controls="Alterations">女装</a></li>
+                <li role="presentation"><a href="#Mending" role="tab" id="Mending-tab" data-toggle="tab"
+                                           aria-controls="Mending">固特异手工鞋</a></li>
+                <!--<li role="presentation"><a href="#Mending" role="tab" id="other-tab" data-toggle="tab"
+                                           aria-controls="Mending">配饰</a></li>-->
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="designs" aria-labelledby="home-tab">
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="男装1" href="images/man/man1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man1s.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>男装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="男装2" href="images/man/man3.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man3s.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>男装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="男装3" href="images/man/man4.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man4s.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>男装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="男装4" href="images/man/man5.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man5s.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>男装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="男装5" href="images/man/man7.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man7s.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>男装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--<div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/man/man6.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man2.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>-->
+                    <!--<div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/man/man2.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man2.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g8.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/man/man2.jpg" alt=" " class="img-responsive"/>
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>-->
+                    <div class="clearfix"></div>
+                </div>
+                <!--女装-->
+                <div role="tabpanel" class="tab-pane fade" id="Alterations" aria-labelledby="Alterations-tab">
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women1s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women2.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women2s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women3.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women3s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women4.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women4s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women5.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women5s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est."
+                           href="images/women/women6.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women6s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>女装</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--鞋-->
+                <div role="tabpanel" class="tab-pane fade" id="Mending" aria-labelledby="Mending-tab">
+
+                    <!--<div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="纯手工" href="images/shows/shows1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/shows/shows1s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>鞋</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="纯手工" href="images/shows/shows2.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/shows/shows2s.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>鞋</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>--><!--
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/women/women1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/women/women1.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>e
+                                </div>
+                            </div>
+                        </a>
+                    </div>-->
+                    <!--<div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/women/women1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/g15.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/women/women1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/g16.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 w3layouts_gallery_grid">
+                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="iimages/women/women1.jpg">
+                            <div class="w3layouts_team_grid">
+                                <img src="images/g17.jpg" alt=" " class="img-responsive">
+                                <div class="w3layouts_team_grid_pos">
+                                    <div class="wthree_text">
+                                        <h4>Sewing</h4>
+                                        <p>查看大图</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>-->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--瀑布流展示图片-->
+<div  id="waterflow" style="margin-top: 30px">
+        <div class="tittle-agileinfo">
+            <h3>瀑布流展示</h3>
+        </div>
+        <ul id="waterTab" class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active" style="margin-left: 43%"><a href="#manflow" id="man-tab" data-toggle="tab">男装</a></li>
+            <li role="presentation" ><a href="#womenflow" id="women-tab" data-toggle="tab">女装</a></li>
+            <li role="presentation" ><a href="#showsflow" id="shows-tab" data-toggle="tab">鞋靴</a></li>
+        </ul>
+
+    </div>
+        <div id="flowContent" class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="manflow">
+                <div class="waterflowContainer">
+                    <div class="box"><img src="images/man/man1.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man2.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man3.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man4.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man5.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man6.jpg" alt=""></div>
+                    <div class="box"><img src="images/man/man7.jpg" alt=""></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="womenflow">
+                <div class="waterflowContainer">
+                    <div class="box"><img src="images/women/women1.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women2.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women3.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women4.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women5.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women6.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women7.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women8.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women9.jpg" alt=""></div>
+                    <div class="box"><img src="images/women/women10.jpg" alt=""></div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="showsflow">
+                <div class="waterflowContainer">
+                    <div class="box"><img src="images/shows/shows1.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows2.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows3.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows4.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows5.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows7.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows8.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows9.jpg" alt=""></div>
+                    <div class="box"><img src="images/shows/shows10.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+<div class="clearfix"></div>
+<!-- //gallery -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="tittle-agileinfo">
+            <h3>联系我们</h3>
+        </div>
+        <div class="agile-contact-grids">
+            <div class="agile-contact-left">
+                <!-- <div class="contact-form">
+                     <h3 class="white-w3ls subheading-w3l">Contact Form</h3>
+                     <form action="#" method="post">
+                         <input type="text" name="Name" placeholder="Name" required="">
+                         <input type="email" name="Email" placeholder="Email" required="">
+                         <input type="text" name="Subject" placeholder="Subject" required="">
+                         <textarea name="Message" placeholder="Message" required=""></textarea>
+                         <input type="submit" value="SEND">
+                     </form>
+                 </div>-->
+                <div class="address-grid">
+                    <!--<h3 class="subheading-w3l">我们的地址</h3>-->
+                    <ul class="w3_address">
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>地址</span><br>兰州市雁滩工业城雁滩家园西门弥一私人定制
+                        </li>
+                        <li><i class="fa fa-mobile" aria-hidden="true"></i><span>电话</span><br>12345678</li>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><span>Email</span><br><a
+                                href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--<h6 class="contact-w3ls">Call <span>001 234 5678</span> to make an appointment</h6>-->
+<div class="footer-w3layouts">
+    <div class="container">
+        <!--<div class="col-md-4 footer-grids">
+            <h3>Services</h3>
+            <ul class="b-nav">
+                <li><a class="scroll" href="index.html">主页</a></li>
+                <li><a class="scroll" href="#about">关于我们</a></li>
+                <li><a class="scroll" href="#works">服务</a></li>
+                <li><a class="scroll" href="#services">特色</a></li>
+                <li><a class="scroll" href="#gallery">大师之作</a></li>
+            </ul>
+        </div>-->
+        <!--<div class="col-md-4 footer-grids">
+            <h3>About Sewing</h3>
+            <p>Donec semper rutrum ipsum et bibendum. Sed condimentum dolor velit.</p>
+            <div class="botton-agileits">
+                <a href="#" class="co3">know more</a>
+            </div>
+            <ul class="agileits_social_list">
+                <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>-->
+        <!---<div class="col-md-4 footer-grids">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.7618840525743!2d-0.12205158417192101!3d51.5175843796368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3507bfbc71%3A0x34ba2cc6c33fe56f!2sKrispy+Kreme!5e0!3m2!1sen!2sin!4v1490078766787"></iframe>
+        </div>--->
+    </div>
+</div>
+<!-- //contact -->
+<!--footer-->
+<div class="copy">
+    <div class="container">
+        <p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.baidu.com">网址</a>
+        </p>
+    </div>
+</div>
+<!--/footer -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/modernizr.js"></script>    <!--banner text -->
+<script src="js/main.js"></script><!--banner text -->
+<!-- stats -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.countup.js"></script>
+<script>
+    $('.counter').countUp();
+</script>
+<!-- //stats -->
+<!-- Lightbox -->
+<script src="js/simpleLightbox.js"></script>
+<script>
+    $('.w3layouts_gallery_grid a').simpleLightbox();
+</script>
+<!-- //Lightbox -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- smooth scrolling -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+        */
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
+</script>
+<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover"
+                                                                         style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/waterfall.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+        });
+    });
+    /*$(".waterflowContainer").waterfall({
+        itemClass: ".box",
+        minColCount: 2,
+        spacingHeight: 10,
+        resizeable: true,
+        ajaxCallback: function(success, end) {
+            var data = {"data": [
+                    { "src": "g3.jpg" }, { "src": "04.jpg" }, { "src": "02.jpg" }, { "src": "05.jpg" }, { "src": "01.jpg" }, { "src": "06.jpg" }
+                ]};
+            var str = "";
+            var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);"><div class="pic"><img src="images/{{src}}" /></div></div>'
+
+            for(var i = 0; i < data.data.length; i++) {
+                str += templ.replace("{{src}}", data.data[i].src);
+            }
+            $(str).appendTo($("#div1"));
+            success();
+            end();
+        }
+    });*/
+</script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+</body>
 </html>
